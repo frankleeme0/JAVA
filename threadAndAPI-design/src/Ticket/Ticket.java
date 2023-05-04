@@ -2,12 +2,12 @@ package Ticket;
 
 public class Ticket implements Runnable{
     private int ticket=100;
-    //private static Object obj=new Object();
+    private static Object obj=new Object();
     @Override
     public void run() {
 
         while (true){
-            synchronized (this){
+            synchronized (obj){
                 if(ticket<=0){
                     System.out.println("票卖完了");
                     break;

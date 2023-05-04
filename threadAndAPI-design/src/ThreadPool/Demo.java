@@ -16,6 +16,7 @@ public class Demo {
             System.out.println(Thread.currentThread().getName()+"进程在运行");
         });
         es.shutdown();
+        System.out.println(Thread.State.TERMINATED);
 
 
 
