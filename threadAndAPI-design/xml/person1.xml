@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--<!DOCTYPE persons [-->
+<!--        <!ELEMENT persons (person+)>-->
+<!--        <!ELEMENT person (name,age) >-->
+<!--        <!ELEMENT name (#PCDATA)>-->
+<!--        <!ELEMENT age (#PCDATA)>-->
+<!--        ]>-->
+
+<!--<!DOCTYPE persons PUBLIC "dtd文件的名称" "URL">-->
+
+<!--<!DOCTYPE persons SYSTEM 'persondtd.dtd'>-->
+
+<persons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.itheima.com/javase"
+         xsi:schemaLocation="http://www.itheima.com/javase person.xsd"
+>
+
+    <person id="1">
+        <name>张三</name>
+        <age>23</age>
+    </person>
+
+</persons>
